@@ -65,7 +65,7 @@ function OpenPlayerInfoMenu(playerInfo)
 				RemoveWaypoint()
 				ESX.ShowNotification('Waypoint removed')
 			else
-				ESX.ShowNotification('No waypoint set)
+				ESX.ShowNotification('No waypoint set')
 			end
         end
         if coords then
