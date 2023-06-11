@@ -114,6 +114,7 @@ if useWaypoint then
 		while true do
 			Wait(wait)
 			if DoesBlipExist(waypointBlip) then
+				wait = 1000
 				local playerPed = PlayerPedId()
 				local playerCoords = GetEntityCoords(playerPed)
 				if waypointBlip ~= nil then
